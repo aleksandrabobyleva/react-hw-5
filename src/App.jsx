@@ -4,7 +4,8 @@ import Spotify from "./Spotify/Spotify";
 function App() {
   return (
     <>
-      <Spotify />
+     <div className="container"> <Spotify /></div>
+     
     </>
   );
 }
